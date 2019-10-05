@@ -13,7 +13,7 @@ import numpy as np
 pref = 'prefix'   # prefix of .cel and .pos files. ( [pref].pos )
 sp = [1]*1 + [8]*2    # species atomic numbers in the order printed in .pos file eg., for H2O (in H-O-O order): [1]*1 + [8]*2 or explicitly as [1 8 8]
 ns = 2000    # number of structures to be included in the movie (0 for taking all structures) 
-skip_freq = 10   # number of structures to be skipped after each structure (0 for no skipping)
+skip_freq = 10   # number of structures to be skipped after each structure
 
 ang = 0.529177249
 
